@@ -66,6 +66,7 @@ if(isset ($_POST) && !empty($_POST)){
     while($linha = mysqli_fetch_array($resultado)){ 
         ?>
 
+
             <div style="width: 100%; border:1px solid;"> 
                 <h1><?php echo $linha["pergunta"]; ?></h1>
 
@@ -107,11 +108,12 @@ if(isset ($_POST) && !empty($_POST)){
                     <?php echo $linha["e"]; ?>
                 </h3>   
 
-                <br><br>
+                <br>
 
-                <button type="submit" class="m-4 btn btn-success">Enviar Questionario</button>
+                
             </div>
+
+            <button type="submit" class="m-4 btn btn-success">Enviar Questionario</button>
         <?php
     }
-
 ?>
