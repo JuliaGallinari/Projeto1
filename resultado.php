@@ -20,42 +20,9 @@ if(isset ($_POST) && !empty($_POST)){
 
 <form action= "./index.php" method= "post">
 
-<label> Pergunta </label>
-<textarea name="pergunta"></textarea>
-
 <br><br>
-
-<label> A) </label>
-<input type="radio" name="correta" value="A" />
-<input type="text" name="a" />
-
-<br><br>
-
-<label> B) </label>
-<input type="radio" name="correta" value="B" />
-<input type="text" name="b" />
-
-<br><br>
-
-<label> C) </label>
-<input type="radio" name="correta" value="C" />
-<input type="text" name="c" />
-
-<br><br>
-
-<label> D) </label>
-<input type="radio" name="correta" value="D" />
-<input type="text" name="d" />
-
-<br><br>
-
-<label> E) </label>
-<input type="radio" name="correta" value="E" />
-<input type="text" name="e" />
-
-<br><br>
-
 <button type="submit" class="m-4 btn btn-success">Enviar Questionario</button>
+
 </form>
 
 <?php
@@ -113,7 +80,7 @@ if(isset ($_POST) && !empty($_POST)){
                 
             </div>
 
-            <button type="submit" class="m-4 btn btn-success">Enviar Questionario</button>
+
         <?php
     }
 ?>
